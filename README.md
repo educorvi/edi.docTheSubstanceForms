@@ -1,4 +1,4 @@
-#Technische Dokumentation des Plone-Add-Ons edi.substanceforms
+# Technische Dokumentation des Plone-Add-Ons edi.substanceforms
 
 Autor: Seppo Walther (seppo.walther@educorvi.de)
 
