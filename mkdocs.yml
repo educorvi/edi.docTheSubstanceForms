@@ -5,6 +5,11 @@ nav:
     - Ausgangssituation: ausgang.md
     - Zielsetzung: zielsetzung.md
     - Anforderungsanalye: anforderungen.md  
+    - Bestandteile der Applikation: bestandteile.md
+    - Aufbau des Software-Packages: aufbau.md
+    - Automatische Testverfahren: tests.md
+    - Installation und Konfiguration im CMS Plone: plone.md
+    - Lizenz: lizenz.md  
 
 theme: material     
 
