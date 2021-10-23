@@ -17,7 +17,7 @@ Dämpfen in die Atemluft steht und dass Druckbestäubungspuder verwendet
 werden, die eine bestimmte Mindest-,Körnungsgröße aufweisen, um nicht 
 lungengängig zu sein.
 
-Die Online-Datenbank trägt deshalb den Namen "Emissionsarme Produkte".
+Die Online-Datenbank trägt deshalb den Namen **Emissionsarme Produkte**.
 
 Die Datenbank wurde auf Basis des Web-Content-Management-Systems Plone
 entwickelt. Die Eigenschaften der Chemikalienprodukte, deren Inhaltsstoffe,
@@ -32,6 +32,7 @@ aufgrund der technischen Eigenschaften der objektorientierten Datenbank
 nur sehr eingeschränkt.
 
 Zu den Chemikalienprodukten gehören:
+
 - Wasch- und Reinigungsmittel für den Offsetdruck
 - Sonderreiniger für die manuelle Anwendung im Offsetdruck
 - Reinigungsmittel im Etikettendruck

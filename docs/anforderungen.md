@@ -50,7 +50,8 @@ Berechtigungen für die Status wie folgt definiert:
 Auch hier ist das CMS Plone hilfreich. Plone selbst unterstützt von Haus aus Responsive 
 Webdesign. Das Webdesign des Kunden verwendet außerdem Bootstrap als CSS- und Javascript-
 Basis. Dementsprechend wurde für die Realisierung aller HTML-Templates im Projekt der 
-HTML-Markup des Bootstrap Frameworks in der Version 4.6 TODO:Link verwendet.
+HTML-Markup des [Bootstrap Frameworks in der Version 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 
+verwendet.
 
 Bootstrap teilt jeden Bildschirm in ein Raster aus 12 Spalten ein und ordnet den Endgeräten
 je nach Größe des tatsächlichen physikalische Bildschirms eine von 4 Bildschirmgrößen: 
@@ -75,7 +76,7 @@ technischer Sicht gewährleistet. Ausserdem wird in den Formularen zum Upload un
 der Bilder zu Herstellern und Chemikalienprodukten sichergestellt, dass Texte für Titel,
 und Bildbeschreibung angegeben werden können. Die Bilder selbst werden als Artikel im CMS
 Plone gespeichert. In den Einzelansichten für Hersteller und Chemikalienprodukte werden die
-Titel- und Beschreibungstexte in den <img> Tags verwendet:
+Titel- und Beschreibungstexte in den \<img> Tags verwendet:
 
 - title = Titel des Bildes
 - alt = Kurzbeschreibung des Bildes (außerdem Verwendung in der Bildunterschrift)
