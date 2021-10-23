@@ -1,0 +1,13 @@
+site_name: edi.substanceforms
+
+nav:
+    - Home: index.md
+    - Ausgangssituation: ausgang.md
+    - Zielsetzung: zielsetzung.md
+    - Anforderungsanalye: anforderungen.md  
+
+theme: material     
+
+plugins:
+    - pdf-export:
+        combined : true 
