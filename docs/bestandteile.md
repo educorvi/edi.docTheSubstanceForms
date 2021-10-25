@@ -7,7 +7,7 @@ sowie alle benötigten Formulare und Ansichten (Forms und Views), für das Manag
 der Chemikalienprodukte mit dem CMS Plone. Die Bestandteile der Applikation werden
 in den folgenden Abschnitten detaillierter beschrieben.
 
-TODO:MrBob
+Für die Erstellung der Plone-Inhaltstypen (Content-Types, Viewklassen, Viewtemplates...) kommt der Generator **mrbob** zum Einsatz. Dieser ermöglicht den Fokus auf die essentielle Programmierung und Anpassung der Inhaltstypen durch massive Zeitersparnisse gegenüber des manuellen Anlegens.
 
 ## Artikeltypen für die Pflege von Inhalten
 
