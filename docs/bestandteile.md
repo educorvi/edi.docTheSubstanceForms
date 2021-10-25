@@ -61,12 +61,11 @@ Ausserdem wird ein Formular für die Suche von Datensätzen in der Datenbank ben
 
 ### Einzelansicht für die Datenbank
 
-Sinn: Listing der Tabellen, die ihrerseits wiederum Hersteller oder Chemikalienprodukte
-repräsentieren
+In der Einzelansicht für die Datenbank (datanbank_view.pt) werden vorher zum CMS hinzugefügte Tabellen der Datenbank angezeigt. Eine Tabelle repräsentiert ihrerseits Hersteller oder Chemikalienprodukte.
 
 ### Einzelansicht für die Tabelle
 
-Sinn: Suchforms für die Hersteller oder Chemikalienprodukte und Listing der Treffer
+Die Einzelansicht für die Tabelle (tabelle_view.pt) dient dem Listing aller Datensätze in der Tabelle und enthält entsprechende Suchparameter, nach denen die Trefferliste bei Bedarf gefiltert werden kann. So ist beispielsweise der Ausschluss aller Gefahrstoffgemische möglich, die nicht als Sonderreiniger definiert sind.
 
 ### Einzelansicht für Hersteller und Gefahrstoffprodukte
 
