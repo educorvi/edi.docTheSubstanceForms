@@ -70,7 +70,21 @@ Sinn: Suchforms für die Hersteller oder Chemikalienprodukte und Listing der Tre
 
 ### Einzelansicht für Hersteller und Gefahrstoffprodukte
 
-### Funktionale Views
+Für jede Art von Produkten gibt es ein individuelles Viewtemplate. In diesem Viewtemplate wird eine Tabelle erzeugt, in der die entsprechenden Eigenschaften des Produktes zur Anzeige gebracht werden. Außerdem erfolgt hier die Darstellung der gespeicherten Bilder. Folgende Viewtemplates sind vorhanden:
+
+- substance_view.pt
+- substance_mixture_view.pt
+- spray_powder_view.pt
+- manufacturer_view.pt
+
+Viele in der Datenbank gespeicherte Werte sind nicht lesbar. Daher erfolgt in der Viewklasse single_view.py, welche allen Einzelansichten zugrunde liegt, die Key-Value-Zuweisung und die Übersetzung von Werten.
+
+## Funktionale Views
+
+Ein funktionaler View zeichnet sich dadurch aus, entweder kein eigenes Template zu besitzen, oder eines das auf die Bestätigung einer Aktion beschränkt ist. Zu den funktionalen Views gehören:
 
 - Delete View
+- single-View
 - ...
+
+So besitzt bespielsweise der Delete View ein Template zur Bestätigung des Löschens des Artikels per Auswahl einer Checkbox, während in den single-view alle Methoden der Einzelansichten ausgelagert wurden.
