@@ -14,6 +14,7 @@ nav:
         - 'Anhang 1: ERM-Datenbankmodell': anhang1.md
         - 'Anhang 2: Aktivitätendiagramm Gefahrstoffgemisch hinzufügen': anhang2.md
         - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
+        - 'Anhang 4: Abkürzungsverzeichnis': anhang4.md
 
 theme: material     
 
