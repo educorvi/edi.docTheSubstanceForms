@@ -12,6 +12,8 @@ nav:
     - Lizenz: lizenz.md  
     - Anhang:
         - 'Anhang 1: ERM-Datenbankmodell': anhang1.md
+        - 'Anhang 2: Aktivitätendiagramm Gefahrstoffgemisch hinzufügen': anhang2.md
+        - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
 
 theme: material     
 
