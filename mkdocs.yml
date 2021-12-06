@@ -15,5 +15,13 @@ nav:
 theme: material     
 
 plugins:
-    - pdf-export
     - search
+    - with-pdf:
+        author: Seppo Walther
+        copyright: Creative Commons (CC BY-ND)
+        cover_subtitle: Projektarbeit Seppo Walther
+        toc_title: Inhaltsverzeichnis
+
+markdown_extensions:
+  - abbr
+  - pymdownx.snippets
