@@ -15,5 +15,5 @@ nav:
 theme: material     
 
 plugins:
-    - pdf-export:
-        combined : false
+    - pdf-export
+    - search
