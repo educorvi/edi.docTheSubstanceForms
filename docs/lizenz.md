@@ -1,4 +1,4 @@
- # Lizenzvereinbarung für edi.substanceforms
+# Lizenzvereinbarung für edi.substanceforms
 
 Für jedes Softwareprodukt ist es von essentieller Bedeutung, Rechte und Ansprüche auf das geistige Eigentum zu definieren und zu schützen.
 Hierfür werden meist Lizenzen verwendet, die gewisse Rechte klar festlegen.
