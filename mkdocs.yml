@@ -10,7 +10,8 @@ nav:
     - Automatische Testverfahren: tests.md
     - Installation und Konfiguration im CMS Plone: plone.md
     - Lizenz: lizenz.md  
-    - Anhang: anhang.md
+    - Anhang:
+        - 'Anhang 1: ERM-Datenbankmodell': anhang1.md
 
 theme: material     
 

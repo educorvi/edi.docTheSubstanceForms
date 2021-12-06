@@ -9,3 +9,5 @@ Für die MIT Lizenz habe ich mich entschieden, da sie Business- und Open Source 
 
 Die Dokumentation in gedruckter Form, sprich der PDF Export, ist unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lizensiert.
 Diese Lizenz habe ich gewählt, da Sie die Verwendung, Veränderung und Veröffentlichung durch Andere (sogar für die kommerzielle Nutzung) ermöglicht, jedoch eine Nennung des Urhebers voraussetzt.
+
+--8<-- "includes/abbreviations.md"
