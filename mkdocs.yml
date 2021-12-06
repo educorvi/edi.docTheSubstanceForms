@@ -10,6 +10,7 @@ nav:
     - Automatische Testverfahren: tests.md
     - Installation und Konfiguration im CMS Plone: plone.md
     - Lizenz: lizenz.md  
+    - Anhang: anhang.md
 
 theme: material     
 
