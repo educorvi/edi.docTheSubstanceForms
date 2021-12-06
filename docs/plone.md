@@ -1,6 +1,6 @@
 # Installation und Konfiguration im CMS Plone
 
-Das Package **edi.substanceforms** wird auf der Plattform GitHub gehostet.
+Das Package **edi.substanceforms** wird auf der Plattform [GitHub](https://github.com) gehostet.
 
 Um edi.substanceforms im Web-Content-Management-System Plone zu installieren, wird das Package zunächst via 
 git clone in das Sourcen-Verzeichns (src) der Buildout-Installation heruntergeladen und für die Installation 
@@ -32,13 +32,15 @@ Durchführung eines neuen Buildouts im Wurzelverzeichnis der Plone-Installation:
 Anschließend kann der Plone-Client hochgefahren werden, dies geschieht mit dem Befehl:
 
 ```
-{buildout-home}$ ./bin/{instance} start
+{buildout-home}$ ./bin/{instance-name} start
 ```
 
 Danach muss das Package in den Plone-Einstellungen installiert werden.
 
---> Einstellungen ({url}/@@plone_control_panel) --> edi.substanceforms --> **Installieren**
+--> Einstellungen ({site-url}/@@plone_control_panel) --> edi.substanceforms --> **Installieren**
 
 Das Package wurde nun erfolgreich installiert und ist einsatzbereit.
 
 Nun kann mit dem Hinzufügen einer Datenbank begonnnen werden.
+
+*[Github]: Freie Plattform für die kollaborative Softwareentwicklung

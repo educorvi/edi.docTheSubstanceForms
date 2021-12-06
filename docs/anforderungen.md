@@ -1,10 +1,9 @@
 #Anforderungsanalyse
 
-Die Anforderungsanalye ist für die hier vorliegende technische Dokumentation
-vor allem vor dem Hintergrund des Verständnisses für die technischen Zusammenhänge
-der realisierten Softwarelösung von Bedeutung. Dieses Kapitel ist deshalb als 
-Gegenüberstellung der Kundenanforderungen mit den im Projekt entwickelten Artefakten 
-zu verstehen.
+Die Anforderungsanalye ist für die technische Dokumentation vor allem vor dem Hintergrund 
+des Verständnisses für die technischen Zusammenhänge der realisierten Softwarelösung von Bedeutung. 
+Dieses Kapitel ist deshalb als Gegenüberstellung der Kundenanforderungen mit den im Projekt entwickelten 
+Artefakten zu verstehen.
 
 ##Bedienbarkeit über das Web-CMS Plone
 
@@ -70,7 +69,6 @@ nicht möglich ist und deshalb automatisch (responsive) unter der Tabelle angeze
 
 ##Barrierefreiheit gemäß BITV 2.0 (WCAG 2.1 Level AA)
 
-TODO:Bildhandling überarbeiten!
 Bei korrekter Verwendung des HTML-Markups von Bootstrap ist die Barrierefreiheit aus
 technischer Sicht gewährleistet. Ausserdem wird in den Formularen zum Upload und zum Update
 der Bilder zu Herstellern und Chemikalienprodukten sichergestellt, dass Texte für Titel,
@@ -83,7 +81,6 @@ Titel- und Beschreibungstexte in den \<img> Tags verwendet:
  
 ##Integrität der gespeicherten Daten
 
-TODO:Datenbankdesign erwähnen? - ja!
 Die Integrität der gespeicherten Daten wird durch Datentypisierung und fachliche 
 Plausibilitätsprüfungen sichergestellt. Somit wird jeder von den Autoren und Redakteuren
 eingetragene Wert sowohl im Hinblick auf das Datenformat als auch im Hinblick auf die

@@ -1,13 +1,13 @@
 # Anhang 3
 
 ## Verzeichnis Funktionstests
-Alle Funktionstests können [hier](https://github.com/educorvi/edi.substanceforms/tree/main/src/edi/substanceforms/tests) vollständig eingesehen werden unter:
+Alle Funktionstests können [hier](https://github.com/educorvi/edi.substanceforms/tree/main/src/edi/substanceforms/tests) vollständig eingesehen werden. In der folgenden Übersicht werden die Tests strukturiert gelistet:
 
 ### Content Type Tests
 * test_ct_datenbank.py
 * test_ct_tabelle.py
 
-### View Tests
+### View Tests und Test der Forms
 * test_view_add_synonym_form.py
 * test_view_create-manufacturer-form.py
 * test_view_create_ingredient_form.py 

@@ -6,9 +6,9 @@ nav:
     - Zielsetzung: zielsetzung.md
     - Anforderungsanalye: anforderungen.md  
     - Bestandteile der Applikation: bestandteile.md
-    - Aufbau des Software-Packages: aufbau.md
-    - Automatische Testverfahren: tests.md
+    - Anwendungsarchitektur: aufbau.md
     - Installation und Konfiguration im CMS Plone: plone.md
+    - Automatische Testverfahren: tests.md
     - Lizenz: lizenz.md  
     - Anhang:
         - 'Anhang 1: ERM-Datenbankmodell': anhang1.md
@@ -23,7 +23,7 @@ plugins:
     - with-pdf:
         author: Seppo Walther
         copyright: Creative Commons (CC BY-ND)
-        cover_subtitle: Projektarbeit Seppo Walther
+        cover_subtitle: Technische Dokumentation
         toc_title: Inhaltsverzeichnis
 
 markdown_extensions:
