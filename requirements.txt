@@ -1,4 +1,5 @@
 # Folgende Packages müssen installiert werden:
 mkdocs
 mkdocs-material
-mkdocs-pdf-export-plugin
+markdown_include
+mkdocs-with-pdf

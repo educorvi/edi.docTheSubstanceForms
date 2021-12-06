@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.2.3, mkdocs-material-7.3.4" name="generator"/>
-<title>Installation und Konfiguration im CMS Plone - edi.substanceforms</title>
+<title>Anhang 1 - edi.substanceforms</title>
 <link href="../assets/stylesheets/main.db9e7362.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.3f5d1f46.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -20,7 +20,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#installation-und-konfiguration-im-cms-plone">
+<a class="md-skip" href="#test-1-2-3-4-5">
           Skip to content
         </a>
 </div>
@@ -44,7 +44,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Installation und Konfiguration im CMS Plone
+              Anhang 1
             
           </span>
 </div>
@@ -131,9 +131,8 @@
         Automatische Testverfahren
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../plone/">
         Installation und Konfiguration im CMS Plone
       </a>
 </li>
@@ -142,8 +141,8 @@
         Lizenz
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" id="__nav_10" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" id="__nav_10" type="checkbox"/>
 <label class="md-nav__link" for="__nav_10">
           Anhang
           <span class="md-nav__icon md-icon"></span>
@@ -154,8 +153,9 @@
           Anhang
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../anhang1/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         Anhang 1
       </a>
 </li>
@@ -177,40 +177,14 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="installation-und-konfiguration-im-cms-plone">Installation und Konfiguration im CMS Plone</h1>
-<p>Das Package <strong>edi.substanceforms</strong> wird auf der Plattform GitHub gehostet.</p>
-<p>Um edi.substanceforms im Web-Content-Management-System Plone zu installieren, wird das Package zunächst via 
-git clone in das Sourcen-Verzeichns (src) der Buildout-Installation heruntergeladen und für die Installation 
-in der Datei <strong>buildout.cfg</strong> eingetragen. Die Installation erfolgt dann im Rahmen des Buildout-Prozesses</p>
-<pre><code>{buildout-home}$ cd src
-{buildout-home}/src$ git clone https://github.com/educorvi/edi.substanceforms.git
-</code></pre>
-<p>Einträge in der Datei buildout.cfg der Plone-Installation:</p>
-<pre><code>    eggs:
-         ...
-         edi.substanceforms
-
-    develop:
-         ...
-         src/edi.substanceforms
-</code></pre>
-<p>Durchführung eines neuen Buildouts im Wurzelverzeichnis der Plone-Installation:</p>
-<pre><code>{buildout-home}$ ./bin buildout
-</code></pre>
-<p>Anschließend kann der Plone-Client hochgefahren werden, dies geschieht mit dem Befehl:</p>
-<pre><code>{buildout-home}$ ./bin/{instance} start
-</code></pre>
-<p>Danach muss das Package in den Plone-Einstellungen installiert werden.</p>
-<p>--&gt; Einstellungen ({url}/@@plone_control_panel) --&gt; edi.substanceforms --&gt; <strong>Installieren</strong></p>
-<p>Das Package wurde nun erfolgreich installiert und ist einsatzbereit.</p>
-<p>Nun kann mit dem Hinzufügen einer Datenbank begonnnen werden.</p>
+<h1 id="test-1-2-3-4-5">Test 1 2 3 4 5</h1>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Automatische Testverfahren" class="md-footer__link md-footer__link--prev" href="../tests/" rel="prev">
+<a aria-label="Previous: Lizenz" class="md-footer__link md-footer__link--prev" href="../lizenz/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -219,21 +193,8 @@ in der Datei <strong>buildout.cfg</strong> eingetragen. Die Installation erfolgt
 <span class="md-footer__direction">
                 Previous
               </span>
-              Automatische Testverfahren
-            </div>
-</div>
-</a>
-<a aria-label="Next: Lizenz" class="md-footer__link md-footer__link--next" href="../lizenz/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
               Lizenz
             </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
 </div>
 </a>
 </nav>

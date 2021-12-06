@@ -10,10 +10,22 @@ nav:
     - Automatische Testverfahren: tests.md
     - Installation und Konfiguration im CMS Plone: plone.md
     - Lizenz: lizenz.md  
-    - Anhang: anhang.md
+    - Anhang:
+        - 'Anhang 1: ERM-Datenbankmodell': anhang1.md
+        - 'Anhang 2: Aktivitätendiagramm Gefahrstoffgemisch hinzufügen': anhang2.md
+        - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
+        - 'Anhang 4: Abkürzungsverzeichnis': anhang4.md
 
 theme: material     
 
 plugins:
-    - pdf-export:
-        combined : false
+    - search
+    - with-pdf:
+        author: Seppo Walther
+        copyright: Creative Commons (CC BY-ND)
+        cover_subtitle: Projektarbeit Seppo Walther
+        toc_title: Inhaltsverzeichnis
+
+markdown_extensions:
+  - abbr
+  - pymdownx.snippets
