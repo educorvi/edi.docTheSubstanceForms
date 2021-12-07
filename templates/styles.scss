@@ -1,0 +1,67 @@
+@page {
+  size: a4 portrait;
+  margin: 25mm 15mm 20mm 25mm;
+  counter-increment: page;
+  white-space: pre;
+  color: grey;
+
+  @top-right {
+    font-size: 7pt;
+    content: string(chapter);
+  }
+
+  @bottom-center {
+    font-size: 8pt;
+    content: '- 'counter(page)'/'counter(pages)' -';
+  }
+
+  @bottom-right {
+    font-size: 6pt;
+    content: string(copyright);
+  }
+}
+
+@media print {
+  html {
+    font-size: 120%;
+    font-family: 'Helvetica', 'Kelmscott Roman NF', 'Noto Serif JP', serif;
+  }
+
+  body {
+    font-size: 12pt;
+    font-family: 'Helvetica', 'Classico URW T OT', 'Noto Serif JP', serif;
+  }
+
+  article {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    font-family: 'Gentium Book Basic', 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', 'Roboto', sans-serif;
+  }
+
+  pre,
+  code,
+  var,
+  samp,
+  kbd,
+  tt {
+    font-family: 'Noto Sans Mono CJK JP', 'Courier New', monospace, serif;
+    font-size: 0.8em;
+  }
+
+  pre code,
+  pre var,
+  pre samp,
+  pre kbd,
+  pre tt {
+    font-size: 100%;
+  }
+}
