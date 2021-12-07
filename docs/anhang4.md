@@ -11,9 +11,13 @@
 | IHK        | Industrie- und Handelskammer                                                    |
 | MIT        | Massachusetts Institute of Technology                                           |
 | PDF        | Portable Document Format                                                        |
+| HTML       | HyperText Markup Language                                                       |
+| CSS        | Cascading Style Sheets                                                          |
+| CT         | Content-Type (Inhaltstyp im CMS)                                                |
 | PSQL       | PostgreSQL                                                                      |
 | RDBMS      | relational database management system —> Relationales Datenbankmanagementsystem |
 | src        | Sourcen- (Quellen) Verzeichnis                                                  |
+| img-Tags   | HTML image-Tags                                                                 |
 | (Web-) CMS | (Web-) Content Management System                                                |
 | Content Management System | Software, um digitale Inhalte zu erstellen, zu speichern und zu verwalten|
 | Relationales Datenbankmanagementsystem|digitale, tabellenbasierte Datenbank, die auf der Grundlage des Konzepts der relationalen Datenbank, der Relation, beruht|

@@ -29,7 +29,7 @@ entsprechend umgesetzt:
   stellen die technische Verbindung zu den Datenbankobjekten her und erlauben die Nutzung
   des Berechtigungskonzeptes von Plone bis auf die Ebene der Datenbanktabellen.
 - Entwicklung von Methoden zur expliziten Prüfung der Rollen von Benutzern im Kontext der
-  Formulare mit denen einzelne Datensätze bearbeitet werden können:
+  Formulare, mit denen einzelne Datensätze bearbeitet werden können:
   - **userCanEdit**, prüft das Schreibrecht von Benutzern
   - **userCanReview**, prüft das Recht von Benutzern zur Veröffentlichung
 
@@ -37,7 +37,7 @@ Für die Artikeltypen Datenbank und Tabelle verwenden wir einen eigenen Workflow
 Berechtigungen für die Status wie folgt definiert:
 
 - **privat:** Lese- und Schreibrechte für die CMS-Rollen Owner und Manager
-- **Entwurf:** Lese- und Schreibrechte für die CMS-Rollen Editor und Manger, Leserecht für
+- **Entwurf:** Lese- und Schreibrechte für die CMS-Rollen Editor und Manager, Leserecht für
   Reviewer
 - **zur Veröffentlichung eingereicht:** Lese- und Schreibrechte für die CMS-Rollen Reviewer
   und Manager, Leserecht für Editor
@@ -49,11 +49,11 @@ Berechtigungen für die Status wie folgt definiert:
 Auch hier ist das CMS Plone hilfreich. Plone selbst unterstützt von Haus aus Responsive 
 Webdesign. Das Webdesign des Kunden verwendet außerdem Bootstrap als CSS- und Javascript-
 Basis. Dementsprechend wurde für die Realisierung aller HTML-Templates im Projekt der 
-HTML-Markup des [Bootstrap Frameworks in der Version 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 
+HTML-Markup des Bootstrap Frameworks in der Version 4.6 (siehe [https://getbootstrap.com/docs/4.6/getting-started/introduction/](https://getbootstrap.com/docs/4.6/getting-started/introduction/)) 
 verwendet.
 
 Bootstrap teilt jeden Bildschirm in ein Raster aus 12 Spalten ein und ordnet den Endgeräten
-je nach Größe des tatsächlichen physikalische Bildschirms eine von 4 Bildschirmgrößen: 
+je nach Größe des tatsächlichen physikalische Bildschirms eine von 4 Bildschirmgrößen zu: 
 
 - xs (extra-small), 
 - sm (small), 
@@ -71,10 +71,10 @@ nicht möglich ist und deshalb automatisch (responsive) unter der Tabelle angeze
 
 Bei korrekter Verwendung des HTML-Markups von Bootstrap ist die Barrierefreiheit aus
 technischer Sicht gewährleistet. Ausserdem wird in den Formularen zum Upload und zum Update
-der Bilder zu Herstellern und Chemikalienprodukten sichergestellt, dass Texte für Titel,
+der Bilder zu Herstellern und Chemikalienprodukten sichergestellt, dass Texte für Titel 
 und Bildbeschreibung angegeben werden können. Die Bilder selbst werden als Artikel im CMS
 Plone gespeichert. In den Einzelansichten für Hersteller und Chemikalienprodukte werden die
-Titel- und Beschreibungstexte in den \<img> Tags verwendet:
+Titel- und Beschreibungstexte in den img-Tags verwendet:
 
 - title = Titel des Bildes
 - alt = Kurzbeschreibung des Bildes (außerdem Verwendung in der Bildunterschrift)
@@ -84,11 +84,11 @@ Titel- und Beschreibungstexte in den \<img> Tags verwendet:
 Die Integrität der gespeicherten Daten wird durch Datentypisierung und fachliche 
 Plausibilitätsprüfungen sichergestellt. Somit wird jeder von den Autoren und Redakteuren
 eingetragene Wert sowohl im Hinblick auf das Datenformat als auch im Hinblick auf die
-fachliche Richtigkeit hin geprüft. 
+fachliche Richtigkeit geprüft. 
 
 ##Gefahrstoffgemisch hinzufügen
 
-Eine Besonderheit bildet das Gefahrstoffgemisch. Während sonst stets das Produkt der Datenbanktabelle entspricht (beispielsweise wird ein Hersteller in der Hersteller-Datenbanktabelle angelegt), so fasst die Datenbanktabelle Gefahrstoffgemisch die Produkte Etikettenwaschmittel, Waschmittel für UV-Druck, Heatsetwaschmittel, Sonderreiniger und Offsetdruck-Reinigungsmittel zusammen. Daher muss darauf geachtet werden, dass in der Form zum hinzufügen des Gefahrstoffgemisches die Entscheidungen zur Zuordnung getroffen werden können, die in dem Aktivitätsdiagramm [siehe Anlage 2](anhang2.md) entsprechend analysiert wurden.
+Eine Besonderheit bildet das Gefahrstoffgemisch. Während sonst stets das Produkt der Datenbanktabelle entspricht (beispielsweise wird ein Hersteller in der Hersteller-Datenbanktabelle angelegt), so fasst die Datenbanktabelle Gefahrstoffgemisch die Produkte Etikettenwaschmittel, Waschmittel für UV-Druck, Heatsetwaschmittel, Sonderreiniger und Offsetdruck-Reinigungsmittel zusammen. Daher muss darauf geachtet werden, dass in der Form zum Hinzufügen des Gefahrstoffgemisches die Entscheidungen zur Zuordnung getroffen werden können, die in dem Aktivitätsdiagramm [siehe Anlage 2](anhang2.md) entsprechend analysiert wurden.
 
 ##Bildbehandlung
 Für einige Produkte (wie beispielsweise das Gefahrstoffgemisch) soll es möglich sein, ein entsprechendes Produktbild zu hinterlegen.

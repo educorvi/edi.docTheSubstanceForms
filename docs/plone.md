@@ -1,6 +1,6 @@
 # Installation und Konfiguration im CMS Plone
 
-**Technische Voraussetzungen für den Einsatz von edi.substanceforms**
+**Technische Voraussetzungen für den Einsatz von edi.substanceforms:**
 
 Folgende Komponenten und Produkte sind Voraussetzung für die Anwendung von edi.substanceforms
 

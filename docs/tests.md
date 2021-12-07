@@ -6,7 +6,7 @@ alle Ansichten (Views) und Formulare (Forms) zunächst mit dem Generator mr.bob 
 
 Im Zuge der Generierung werden bereits Templates für funktionale Tests im Package angelegt. Ausserdem
 werden in der Datei setup.py des Packages die Abhängigkeiten zur Durchführung automatisierter Tests
-vermerkt. Um die automatisierten Tests ausführen zu können müssen diese Abhängigkeiten zunächst installiert
+vermerkt. Um die automatisierten Tests ausführen zu können, müssen diese Abhängigkeiten zunächst installiert
 werden. Dazu muss folgende Änderung in der buildout.cfg vorgenommen werden:
 
 
@@ -28,8 +28,8 @@ Python-Browser auf eine Seite zugegriffen wird, ist die komplette Transaktionsma
 Damit dies funktioniert, verpackt die Testschicht die Datenbank in einen Demospeicher, der einen regulären 
 Speicher kapselt. Wird von den Tests etwas in die Datenbank geschrieben, speichert der Demostorage es in 
 temporären Feldern des Arbeitsspeichers. Nach jedem Test wird der Demostorage gelöscht. Damit sollten die 
-funktionalen Tests fast so schnell ablaufen wie Integrationstests oder gar Unit-Tests und das trotz des
-zusätzliche Overheads, der durch das Durchlaufen der Plone-Transaktionsmaschine aufgebaut wird.
+funktionalen Tests fast so schnell ablaufen wie Integrationstests oder gar Unit-Tests, und das trotz des
+zusätzlichen Overheads, der durch das Durchlaufen der Plone-Transaktionsmaschine aufgebaut wird.
 
 Zu beachten ist dabei, dass der simulierte Browser reinen Python-Code darstellt. Javascript-Code kann somit
 im Rahmen der funktionalen Tests nicht getestet werden.

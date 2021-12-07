@@ -16,7 +16,7 @@ beschrieben.
 Die Basis der Architektur bildet ein relationales Datenbankmanagementsystem (RDBMS), basierend auf PostgreSQL. Da die 
 Einrichtung dieser Datenbank nicht Teil des Projektes ist, wird hier nur soweit darauf eingegangen um darzustellen, 
 dass alle Daten zu Herstellern und Gefahrstoffprodukten hier gespeichert werden. Dafür kommt jeweils eine Tabelle 
-zum Einsatz, die in ihren Spalten alle Eigenschaften der Produkte abbildet. Die Ausnahme bilden die Bilder zu den
+zum Einsatz, die in ihren Spalten alle Eigenschaften der Produkte abbildet. Eine Ausnahme bilden die Bilder zu den
 Gefahrstoffprodukten. Diese werden direkt im CMS gespeichert. In der Datenbank wird ein URL-Referenz auf das Bild
 gespeichert.
 
@@ -31,16 +31,13 @@ Datenbank die Anmeldedaten der Datenbank hinterlegt werden, ist es das Modul, we
 Datenbank herstellt und für die Anwendung aufrecht erhält.
 
 #### Content-Type Tabelle
-Auf dem CT Datenbank sitzt der CT Tabelle. Für jede PostgreSQL-Datenbanktabelle die im CMS abgebildet werden soll 
-wird eine CT Tabelle angelegt. Darin wird neben der referenzierten Datenbanktabelle auch spezifiziert, welche Spalten 
-später bei der Einzelansicht berücksichtigt werden sollen. Für Gefahrstoffgemische gibt es die Möglichkeit, nur 
-bestimmte Typen dieser Mixtur anzuzeigen.
+Auf dem CT Datenbank sitzt der CT Tabelle. Für jede PostgreSQL-Datenbanktabelle, die im CMS abgebildet werden soll, wird eine CT Tabelle angelegt. Darin wird neben der referenzierten Datenbanktabelle auch spezifiziert, welche Spalten später bei der Einzelansicht berücksichtigt werden sollen. Für Gefahrstoffgemische gibt es die Möglichkeit, nur bestimmte Typen dieser Mixtur anzuzeigen.
 
 #### Einzelansicht Tabelle
 Die Standardansicht der Tabelle besitzt die Möglichkeit, alle Elemente der Tabelle (=Datensätze) anzuzeigen.
 Diese Standardansicht wird im Programmcode für den Hersteller und die Gefahrstoffprodukte weiter spezialisiert werden.
 Auf diese Weise wird der Benutzer in die Lage versetzt, die Datensätze nach entsprechenden Kriterien zu filtern. 
-Diese Ansicht bildet eine Trefferliste, bei der die Benutzer auf einen Datensatz klicken können  um in die 
+Diese Ansicht bildet eine Trefferliste, bei der die Benutzer auf einen Datensatz klicken können, um in die 
 spezialisierte Einzelansicht des Herstellers oder Gefahrstoffproduktes zu kommen.
 
 #### Einzelansicht Hersteller oder Produkt
@@ -51,9 +48,8 @@ und Umwandlungsmethoden der Klasse single_view zur Verfügung, welche von allen 
 werden können.
 
 #### Create-View
-Der Create-View erlaubt es, der Datenbank einen neuen Datensatz hinzuzufügen. Er wird in der Ansicht der Tabelle 
-über einen Button "Artikel hinzufügen" aufgerufen. Der Create-View ist ein HTML-Formular und beinhaltet Felder 
-zu allen Attributen die erfasst werden können bzw. müssen. Die eingegebenen Eigenschaften werden nach mehrerer Prüfungen auf Plausibilität der Daten schließlich in die PSQL-Datenbank geschrieben.
+Der Create-View erlaubt es, der Datenbank einen neuen Datensatz hinzuzufügen. Er wird in der Ansicht der Tabelle über einen Button "Artikel hinzufügen" aufgerufen. Der Create-View ist ein HTML-Formular und beinhaltet Felder 
+zu allen Attributen, die erfasst werden können bzw. müssen. Die eingegebenen Eigenschaften werden nach mehrerer Prüfung auf Plausibilität der Daten schließlich in die PSQL-Datenbank geschrieben.
 
 #### Update-View
 Der Update-View wird aus der Einzelansicht des Herstellers oder Produktes über einen Button "Artikel bearbeiten" 
@@ -64,7 +60,7 @@ Soll eine Änderung vorgenommen werden, so ändert der Nutzer beispielsweise im 
 
 #### Delete-View
 Der Delete-View wird ebenfalls aus der Einzelansicht des Produktes aufgerufen, zum Einsatz kommt ein Button 
-"Artikel löschen". Der Delete-View beinhaltet eine Abfrage, ob man sich sicher sei das Produkt löschen zu wollen. 
-Wird das Kästchen entsprechend angekreuzt so wird der Datensatz aus der Datenbanktabelle von PostgreSQL entfernt.
+"Artikel löschen". Der Delete-View beinhaltet eine Abfrage, ob man sich sicher sei, das Produkt löschen zu wollen. 
+Wird das Kästchen entsprechend angekreuzt, so wird der Datensatz aus der Datenbanktabelle von PostgreSQL entfernt.
 
 *[CT]: Content-Type (Artikeltyp)
