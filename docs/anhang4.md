@@ -1,6 +1,6 @@
 # Anhang 4
 
-## Abkürzungsverzeichnis
+## Glossar und Abkürzungsverzeichnis 
 
 | Abkürzung  | Erklärung                                                                       |
 |------------|---------------------------------------------------------------------------------|
@@ -14,5 +14,10 @@
 | PSQL       | PostgreSQL                                                                      |
 | RDBMS      | relational database management system —> Relationales Datenbankmanagementsystem |
 | src        | Sourcen- (Quellen) Verzeichnis                                                  |
-| View       | Einzelansicht auf Element im Content Management System                          |
 | (Web-) CMS | (Web-) Content Management System                                                |
+| Content Management System | Software, um digitale Inhalte zu erstellen, zu speichern und zu verwalten|
+| Relationales Datenbankmanagementsystem|digitale, tabellenbasierte Datenbank, die auf der Grundlage des Konzepts der relationalen Datenbank, der Relation, beruht|
+| PostgreSQL | Freies, Open Source relationales Datenbankmanagementsystem                      |
+| Plone      | Freies, Open Source Content Management System                                   |
+| View       | Einzelansicht auf Element im Content Management System                          |
+| Form       | Webformular zur Erfassung von Daten, um sie anschließend weiterzuverarbeiten    |

@@ -58,14 +58,6 @@ mit Hilfe von GitHub ein Release erstellt. Unmittelbar danach wird die Weiterent
 neuer Kundenanforderungen fortgesetzt. Dazu zählt beispielsweise die Integration der Gefahrstoffdatenbank
 GESTIS der Deutschen gesetzlichen Unfallversicherung (DGUV).
 
-## Technische Voraussetzungen für den Einsatz von edi.substanceforms
-
-Folgende Komponenten und Produkte sind Voraussetzung für die Anwendung von edi.substanceforms
-
-- Lauffähige Datenbank auf Basis von PostgreSQL
-- Installation von Python >= 3.8
-- Lauffähige Installation (Buildout) des Web CMS Plone in der Version >= 5.2.4
-
 *[IHK]: Industrie und Handelskammer
 *[BG ETEM]: Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse
 *[CMS]: Content Management System

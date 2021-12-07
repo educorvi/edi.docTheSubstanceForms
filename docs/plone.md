@@ -1,5 +1,13 @@
 # Installation und Konfiguration im CMS Plone
 
+**Technische Voraussetzungen für den Einsatz von edi.substanceforms**
+
+Folgende Komponenten und Produkte sind Voraussetzung für die Anwendung von edi.substanceforms
+
+- Lauffähige Datenbank auf Basis von PostgreSQL
+- Installation von Python >= 3.8
+- Lauffähige Installation (Buildout) des Web CMS Plone in der Version >= 5.2.4
+
 Das Package **edi.substanceforms** wird auf der Plattform [GitHub](https://github.com) gehostet.
 
 Um edi.substanceforms im Web-Content-Management-System Plone zu installieren, wird das Package zunächst via 
