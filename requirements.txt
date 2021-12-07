@@ -1,5 +1,5 @@
 # Folgende Packages müssen installiert werden:
 mkdocs
-mkdocs-material
+mkdocs-material==7.3.6
 markdown_include
 mkdocs-with-pdf
