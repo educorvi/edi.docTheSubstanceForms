@@ -1,4 +1,4 @@
-# Anhang 2
+# Anhang 2: Aktivitätsdiagramm
 
 ## Aktivitätsdiagramm Gefahrstoffgemisch anlegen
 

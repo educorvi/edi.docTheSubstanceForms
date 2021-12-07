@@ -1,4 +1,4 @@
-# Anhang 4
+# Anhang 4: Glossar
 
 ## Glossar und Abkürzungsverzeichnis 
 

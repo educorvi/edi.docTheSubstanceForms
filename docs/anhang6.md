@@ -1,4 +1,4 @@
-# Anhang 6 
+# Anhang 6: Klassendiagramme 
 
 ## Klassendiagramme 
 
