@@ -21,8 +21,8 @@ Die Online-Datenbank trägt deshalb den Namen **Emissionsarme Produkte**.
 
 Die Datenbank wurde auf Basis des Web-Content-Management-Systems Plone
 entwickelt. Die Eigenschaften der Chemikalienprodukte, deren Inhaltsstoffe,
-Hersteller und vieles mehr wurden bislang in einer objektorientierten Datenbank.
-Die redaktionelle Arbeit zur Bearbeitung und Pflege sowie auch die Rechere
+Hersteller und vieles mehr wurden bislang in einer objektorientierten Datenbank gespeichert.
+Die redaktionelle Arbeit zur Bearbeitung und Pflege sowie die Recherche
 der Endbenutzer erfolgte über die Leistungsmerkmale des CMS Plone. 
 
 Sowohl die Oberflächen für die Benutzer, Autoren und Redakteure als auch 
