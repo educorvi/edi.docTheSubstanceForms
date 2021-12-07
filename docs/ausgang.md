@@ -1,9 +1,9 @@
-# Ausgangsituation
+# Ausgangssituation
 
 Die Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse (BG ETEM) 
 pflegt für die Betriebe der Branche Druck und Papierverarbeitung eine 
-Online-Datenbank mit speziellen Chemikalien und Chemikaliengeschmischen, 
-die in den Produktionsprozessen der Branche Druck- und Papiervararbeitung 
+Online-Datenbank mit speziellen Chemikalien und Chemikaliengemischen, 
+die in den Produktionsprozessen der Branche Druck- und Papierverarbeitung 
 zum Einsatz kommen. Zielsetzung des Bereiches Prävention der BG ETEM ist es, 
 über diese Online-Datenbank auf die in den Chemikalien  enthaltenen Gefahrstoffe
 hinzuweisen, und die Unternehmerinnen, Unternehmer und Arbeitsschützer zu 
@@ -14,7 +14,7 @@ geringen Gesundheitsgefahren für die Beschäftigten der Branche verbunden sind.
 So ist beispielsweise bei Chemikaliengemischen darauf zu achten, dass 
 ein möglichst hoher Flammpunkt für einen geringen Eintrag von giftigen 
 Dämpfen in die Atemluft steht und dass Druckbestäubungspuder verwendet 
-werden, die eine bestimmte Mindest-,Körnungsgröße aufweisen, um nicht 
+werden, die eine bestimmte Mindest-Körnungsgröße aufweisen, um nicht 
 lungengängig zu sein.
 
 Die Online-Datenbank trägt deshalb den Namen **Emissionsarme Produkte**.

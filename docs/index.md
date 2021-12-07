@@ -6,10 +6,10 @@ IHK-Prüflingsnummer: 158 22139
 
 Das hier dokumentierte Softwareprojekt wurde im Rahmen meiner Projektarbeit für die Abschlussprüfung 
 zum Fachinformatiker für Anwendungsentwicklung bei der IHK Nürnberg für Mittelfranken erstellt. Bei
-meinem Antrag auf Genehmigung der Projektarbeit habe ich angekündigt eine Technische Dokumentation
+meinem Antrag auf Genehmigung der Projektarbeit habe ich angekündigt, eine Technische Dokumentation
 für dieses Open Source Softwareprojekt einzureichen. Dieser Antrag wurde von der IHK genehmigt. 
 Ich versichere hiermit, die Arbeit allein erstellt zu haben und das Dokument sowohl meiner Ausbilderin als auch dem Geschäftsführer meines Ausbildungsbetriebes zur Durchsicht und Freigabe vorgelegt zu haben. 
-In dieser technischen Dokumentation werden keine Geschäftsgeheimnisse preisgegeben und keine datenschutzrechtlichen Daten oder Informationen erhalten. 
+In dieser technischen Dokumentation werden keine Geschäftsgeheimnisse preisgegeben und es sind keine datenschutzrechtlich relevanten Daten oder Informationen enthalten. 
 Die Gliederung meiner Dokumentation und die inhaltliche sowie die äußere Form als Online-Dokumentation mit
 speziellem PDF-Export wurde im Projektverlauf des agilen Entwicklungsprojektes sowohl mit dem Ausbildungsbetrieb, als auch mit dem Kunden als Anwender der Software abgestimmt und entspricht deren Anforderungen.
 
@@ -22,13 +22,15 @@ Fürth, 08.12.2021 Anke Lampe (Ausbilderin)
 
 Fürth, 08.12.2021 Lars Walther (Geschäftsführer)
 
-Die Software befindet sich hier: [edi.substanceforms](https://github.com/educorvi/edi.substanceforms).
+Die Software befindet sich hier: [https://github.com/educorvi/edi.substanceforms](https://github.com/educorvi/edi.substanceforms).
 
-Für die Dokumentation wurde ein eigenes Softwarepackage auf Basis von [MKDocs](https://www.mkdocs.org/)
-entwickelt. Die Dokumentation befindet sich hier: [edi.docTheSubstanceForms](https://github.com/educorvi/edi.docTheSubstanceForms/)
+Für die Dokumentation wurde ein eigenes Softwarepackage auf Basis von MKDocs (siehe [https://www.mkdocs.org/](https://www.mkdocs.org/))
+entwickelt. 
+
+Die Dokumentation befindet sich hier: [https://github.com/educorvi/edi.docTheSubstanceForms/](https://github.com/educorvi/edi.docTheSubstanceForms/)
 
 
-## Zusammenfassung (Management Summary)
+# Zusammenfassung (Management Summary)
 
 Mit dem Add-On edi.substanceforms für das freie Web-Content-Management-System [Plone](https://www.plone.org)
 wird die Online-Datenbank **Emissionsarme Produkte** der Berufsgenossenschaft Energie Textil Elektro und 
@@ -49,7 +51,7 @@ Softwarebestandteile für vergleichbare Projekte. In Abstimmung mit dem Kunden u
 deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Github](https://github.com) zu 
 veröffentlichen.
 
-### Fazit 
+**Fazit** 
 
 Im abschließenden Projektgespräch mit dem Ausbildungsbetrieb und dem Kunden am 02.12.2021 wurde festgestellt, 
 dass die entwickelte Software den Kundenanforderungen entspricht und außerdem Potenzial für die
@@ -57,14 +59,6 @@ Weiterentwicklung bietet. Für den aktuellen Softwarestand wird ein Branch mit d
 mit Hilfe von GitHub ein Release erstellt. Unmittelbar danach wird die Weiterentwicklung der Software anhand 
 neuer Kundenanforderungen fortgesetzt. Dazu zählt beispielsweise die Integration der Gefahrstoffdatenbank
 GESTIS der Deutschen gesetzlichen Unfallversicherung (DGUV).
-
-## Technische Voraussetzungen für den Einsatz von edi.substanceforms
-
-Folgende Komponenten und Produkte sind Voraussetzung für die Anwendung von edi.substanceforms
-
-- Lauffähige Datenbank auf Basis von PostgreSQL
-- Installation von Python >= 3.8
-- Lauffähige Installation (Buildout) des Web CMS Plone in der Version >= 5.2.4
 
 *[IHK]: Industrie und Handelskammer
 *[BG ETEM]: Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse
