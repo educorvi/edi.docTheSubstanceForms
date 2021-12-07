@@ -8,7 +8,7 @@ Projekte und Komponenten aus anderen Open Source Projekten, die als Grundlage f�
 
 So kommt für die gesamte Software und die Dokumentation die [MIT-Lizenz](https://de.wikipedia.org/wiki/MIT-Lizenz) 
 zum Einsatz. Für die MIT Lizenz haben wir uns gemeinsam entschieden, da sie Business- und Open Source freundlich 
-zugleich ist, die eine Verwendung durch Dritte ermöglicht., ohne deren gesamten proprietären Quellcode aufzudecken 
+zugleich ist, die eine Verwendung durch Dritte ermöglicht., ohne deren gesamten proprietären Quellcode aufdecken 
 zu müssen (eine Nennung in der Lizenzangabe genügt), gleichzeitig jedoch im Gegensatz zu GPL weiterhin eine 
 Kommerzialisierung der Projekte ermöglicht.
 

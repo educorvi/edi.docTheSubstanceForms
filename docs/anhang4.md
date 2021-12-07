@@ -6,7 +6,7 @@
 |------------|---------------------------------------------------------------------------------|
 | BG ETEM    | Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse                   |
 | CC         | Creative Commons                                                                |
-| CRUD       | Create, Update, Delete                                                          |
+| CRUD       | Create, Read, Update, Delete                                                    |
 | ERM        | Entity–relationship model                                                       |
 | IHK        | Industrie- und Handelskammer                                                    |
 | MIT        | Massachusetts Institute of Technology                                           |

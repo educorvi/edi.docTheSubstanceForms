@@ -14,7 +14,7 @@ beschrieben.
 
 #### Relationales Datenbanksystem PostgreSQL
 Die Basis der Architektur bildet ein relationales Datenbankmanagementsystem (RDBMS), basierend auf PostgreSQL. Da die 
-Einrichtung dieser Datenbank nicht Teil des Projektes ist wird hier nur soweit darauf eingegangen um darzustellen, 
+Einrichtung dieser Datenbank nicht Teil des Projektes ist, wird hier nur soweit darauf eingegangen um darzustellen, 
 dass alle Daten zu Herstellern und Gefahrstoffprodukten hier gespeichert werden. Dafür kommt jeweils eine Tabelle 
 zum Einsatz, die in ihren Spalten alle Eigenschaften der Produkte abbildet. Die Ausnahme bilden die Bilder zu den
 Gefahrstoffprodukten. Diese werden direkt im CMS gespeichert. In der Datenbank wird ein URL-Referenz auf das Bild
@@ -32,7 +32,7 @@ Datenbank herstellt und für die Anwendung aufrecht erhält.
 
 #### Content-Type Tabelle
 Auf dem CT Datenbank sitzt der CT Tabelle. Für jede PostgreSQL-Datenbanktabelle die im CMS abgebildet werden soll 
-wird ein CT Tabelle angelegt. Darin wird neben der referenzierten Datenbanktabelle auch spezifiziert, welche Spalten 
+wird eine CT Tabelle angelegt. Darin wird neben der referenzierten Datenbanktabelle auch spezifiziert, welche Spalten 
 später bei der Einzelansicht berücksichtigt werden sollen. Für Gefahrstoffgemische gibt es die Möglichkeit, nur 
 bestimmte Typen dieser Mixtur anzuzeigen.
 
