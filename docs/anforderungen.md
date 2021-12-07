@@ -74,7 +74,7 @@ technischer Sicht gewährleistet. Ausserdem wird in den Formularen zum Upload un
 der Bilder zu Herstellern und Chemikalienprodukten sichergestellt, dass Texte für Titel 
 und Bildbeschreibung angegeben werden können. Die Bilder selbst werden als Artikel im CMS
 Plone gespeichert. In den Einzelansichten für Hersteller und Chemikalienprodukte werden die
-Titel- und Beschreibungstexte in den img-Tags verwendet:
+Titel- und Beschreibungstexte in den `<img>`-Tags verwendet:
 
 - title = Titel des Bildes
 - alt = Kurzbeschreibung des Bildes (außerdem Verwendung in der Bildunterschrift)
