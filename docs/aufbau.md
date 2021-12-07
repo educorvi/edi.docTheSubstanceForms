@@ -22,7 +22,8 @@ gespeichert.
 
 ### Plone
 
-Der genaue Aufbau der in der Grafik sowie im Folgenden genannten Softwarekomponenten sind den Klassendiagrammen im [Anhang 6](anhang6.md) zu entnehmen.
+Der genaue Aufbau der Software ist obiger Grafik zu entnehmen, der Entwurf der Klassendiagramme ist in [Anhang 6](anhang6.md) zu finden.
+
 
 #### Content-Type Datenbank
 Der Plone Content-Type (CT) Datenbank interagiert direkt mit der zugrunde liegenden PostgreSQL Datenbank. Da im CT 
