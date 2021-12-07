@@ -85,3 +85,7 @@ Die Integrität der gespeicherten Daten wird durch Datentypisierung und fachlich
 Plausibilitätsprüfungen sichergestellt. Somit wird jeder von den Autoren und Redakteuren
 eingetragene Wert sowohl im Hinblick auf das Datenformat als auch im Hinblick auf die
 fachliche Richtigkeit hin geprüft. 
+
+##Gefahrstoffgemisch hinzufügen
+
+Eine Besonderheit bildet das Gefahrstoffgemisch. Während sonst stets das Produkt der Datenbanktabelle entspricht (beispielsweise wird ein Hersteller in der Hersteller-Datenbanktabelle angelegt), so fasst die Datenbanktabelle Gefahrstoffgemisch die Produkte Etikettenwaschmittel, Waschmittel für UV-Druck, Heatsetwaschmittel, Sonderreiniger und Offsetdruck-Reinigungsmittel zusammen. Daher muss hier darauf geachtet werden, dass in der Datenbank eben solcher Mixturtyp vermerkt wird und die Einzelansichten auf diese Datenbanktabelle entsprechend dynamisch gebildet werden. Informationen über das Prozedere des Anlegens eines Gefahrstoffgemisches sind Anhang 2 zu entnehmen.
