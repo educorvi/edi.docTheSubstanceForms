@@ -2,7 +2,7 @@
 
 Die Entwicklung von edi.substanceforms wurde im grundsätzlichen Ansatz testgetrieben durchgeführt.
 Wie im Kapitel "Bestandteile" beschrieben, wurden die Inhaltstypen **Datenbank** und **Tabelle** sowie 
-alle Ansichten (Views) und Formulare (Forms) wurden zunächst mit dem Generator mr.bob generiert.
+alle Ansichten (Views) und Formulare (Forms) zunächst mit dem Generator mr.bob generiert.
 
 Im Zuge der Generierung werden bereits Templates für funktionale Tests im Package angelegt. Ausserdem
 werden in der Datei setup.py des Packages die Abhängigkeiten zur Durchführung automatisierter Tests

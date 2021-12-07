@@ -36,7 +36,7 @@ wird die Online-Datenbank **Emissionsarme Produkte** der Berufsgenossenschaft En
 Medienerzeugnisse (BG ETEM) realisiert.
 
 Mit Hilfe dieser Online-Datenbank können Unternehmerinnen und Unternehmer, Arbeitsschützer und Verantwortliche
-in den Betrieben der Branche Druck und Papierverarbeitung Chemikalienprodukte finden deren Einsatz in der
+in den Betrieben der Branche Druck und Papierverarbeitung Chemikalienprodukte finden, deren Einsatz in der
 Produktionsumgebung mit möglichst geringen Gesundheitsgefahren für die damit in Kontakt stehenden Beschäftigten
 verbunden ist.
 
@@ -50,7 +50,7 @@ Softwarebestandteile für vergleichbare Projekte. In Abstimmung mit dem Kunden u
 deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Github](https://github.com) zu 
 veröffentlichen.
 
-## Technische Voraussetzugen für den Einsatz von edi.substanceforms
+## Technische Voraussetzungen für den Einsatz von edi.substanceforms
 
 Folgende Komponenten und Produkte sind Voraussetzung für die Anwendung von edi.substanceforms
 

@@ -26,7 +26,7 @@ Content-Types:
 Die Datenbank **Emissionsarme Produkte** kann mit diesem Artikeltyp an beliebiger
 Stelle in der Inhaltsstruktur der Website eingebunden werden. Die Autoren und Redakteure
 können mit entsprechenden Feldern die Datenbank beschreiben und für die Benutzerinnen
-und Benutzer präsentieren. Außerdem stellt die Datenbank die technische Verbindung
+und Benutzer präsentieren. So stehen Textfelder zur Verfügung, um Informationen über die Datenbank bereitzustellen: was ist gespeichert? Wie interagiert der Nutzer mit den Informationen? Außerdem stellt die Datenbank die technische Verbindung
 zur physikalischen Datenbank her. D.h. es werden mit diesem Artikeltyp alle notwendigen
 Parameter für die Verbindung zur Datenbank gespeichert.
 
