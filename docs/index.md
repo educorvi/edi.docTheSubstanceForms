@@ -1,4 +1,4 @@
-# Technische Dokumentation von edi.substanceforms
+# Dokumentation des Projekts edi.substanceforms
 
 Autor: Seppo Walther [seppo.walther@educorvi.de](mailto:seppo.walther@educorvi.de)
 
@@ -7,21 +7,20 @@ IHK-Prüflingsnummer: 158 22139
 Das hier dokumentierte Softwareprojekt wurde im Rahmen meiner Projektarbeit für die Abschlussprüfung 
 zum Fachinformatiker für Anwendungsentwicklung bei der IHK Nürnberg für Mittelfranken erstellt. Bei
 meinem Antrag auf Genehmigung der Projektarbeit habe ich angekündigt eine Technische Dokumentation
-einzureichen. Dieser Antrag wurde von der IHK genehmigt. Ich versichere hiermit, die Arbeit allein 
-erstellt zu haben und das Dokument sowohl meiner Ausbilderin als auch dem Geschäftsführer meines 
-Ausbildungsbetriebes zur Durchsicht und Freigabe vorgelegt zu haben. In dieser technischen Dokumentation
-werden keine Geschäftsgeheimnisse preisgegeben und keine datenschutzrechtlichen Daten oder
-Informationen erhalten. Die in diesem Dokument enthaltene Anforderungsanalyse wurde auf ausdrücklichen
-Kundenwunsch in das Dokument aufgenommen.
+für dieses Open Source Softwareprojekt einzureichen. Dieser Antrag wurde von der IHK genehmigt. 
+Ich versichere hiermit, die Arbeit allein erstellt zu haben und das Dokument sowohl meiner Ausbilderin als auch dem Geschäftsführer meines Ausbildungsbetriebes zur Durchsicht und Freigabe vorgelegt zu haben. 
+In dieser technischen Dokumentation werden keine Geschäftsgeheimnisse preisgegeben und keine datenschutzrechtlichen Daten oder Informationen erhalten. 
+Die Gliederung meiner Dokumentation und die inhaltliche sowie die äußere Form als Online-Dokumentation mit
+speziellem PDF-Export wurde im Projektverlauf des agilen Entwicklungsprojektes sowohl mit dem Ausbildungsbetrieb, als auch mit dem Kunden als Anwender der Software abgestimmt und entspricht deren Anforderungen.
 
-Fürth, 07.12.2021 Seppo Walther
+Fürth, 08.12.2021 Seppo Walther
 
 Das Dokument wurde von uns gesehen und für die Übermittlung an die IHK Nürnberg für Mittelfranken
 freigegeben.
 
-Fürth, 07.12.2021 Anke Lampe (Ausbilderin)
+Fürth, 08.12.2021 Anke Lampe (Ausbilderin)
 
-Fürth, 07.12.2021 Lars Walther (Geschäftsführer)
+Fürth, 08.12.2021 Lars Walther (Geschäftsführer)
 
 Die Software befindet sich hier: [edi.substanceforms](https://github.com/educorvi/edi.substanceforms).
 
@@ -29,7 +28,7 @@ Für die Dokumentation wurde ein eigenes Softwarepackage auf Basis von [MKDocs](
 entwickelt. Die Dokumentation befindet sich hier: [edi.docTheSubstanceForms](https://github.com/educorvi/edi.docTheSubstanceForms/)
 
 
-## Zusammenfassung
+## Zusammenfassung (Management Summary)
 
 Mit dem Add-On edi.substanceforms für das freie Web-Content-Management-System [Plone](https://www.plone.org)
 wird die Online-Datenbank **Emissionsarme Produkte** der Berufsgenossenschaft Energie Textil Elektro und 
@@ -49,6 +48,15 @@ für vergleichbare Anwendungsfälle eingesetzt werden kann, so liefert das Proje
 Softwarebestandteile für vergleichbare Projekte. In Abstimmung mit dem Kunden und dem Ausbildungsbetrieb wurde
 deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Github](https://github.com) zu 
 veröffentlichen.
+
+### Fazit 
+
+Im abschließenden Projektgespräch mit dem Ausbildungsbetrieb und dem Kunden am 02.12.2021 wurde festgestellt, 
+dass die entwickelte Software den Kundenanforderungen entspricht und außerdem Potenzial für die
+Weiterentwicklung bietet. Für den aktuellen Softwarestand wird ein Branch mit der Version 1.0b1 gebildet und
+mit Hilfe von GitHub ein Release erstellt. Unmittelbar danach wird die Weiterentwicklung der Software anhand 
+neuer Kundenanforderungen fortgesetzt. Dazu zählt beispielsweise die Integration der Gefahrstoffdatenbank
+GESTIS der Deutschen gesetzlichen Unfallversicherung (DGUV).
 
 ## Technische Voraussetzungen für den Einsatz von edi.substanceforms
 
