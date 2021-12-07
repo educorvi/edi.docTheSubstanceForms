@@ -22,7 +22,7 @@ plugins:
     - search
     - with-pdf:
         author: Seppo Walther
-        copyright: Creative Commons (CC BY-ND)
+        copyright: Creative Commons (CC BY 4.0)
         cover_subtitle: Technische Dokumentation
         toc_title: Inhaltsverzeichnis
 
