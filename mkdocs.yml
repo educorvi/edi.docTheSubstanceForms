@@ -25,9 +25,21 @@ plugins:
     - search
     - with-pdf:
         author: Seppo Walther
-        copyright: Creative Commons (CC BY 4.0)
-        cover_subtitle: Technische Dokumentation
+        copyright: (c) Seppo Walther -edi.substanceforms-
+        cover_subtitle: Dokumentation des Projekts 
         toc_title: Inhaltsverzeichnis
+
+extra:
+    cover_description: Winterprüfung 2021
+    cover_additional: Fachinformatiker Anwendungsentwicklung
+    cover_company: educorvi GmbH & Co. KG
+    cover_street: Karolinenstraße 17
+    cover_zip_location: 90763 Fürth
+    cover_url: https://www.educorvi.de
+    cover_www: www.educorvi.de
+    cover_name: Seppo Walther
+    cover_copyright: CC BY 4.0
+    cover_date: 08.12.2021  
 
 markdown_extensions:
   - abbr

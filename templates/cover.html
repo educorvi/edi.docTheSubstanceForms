@@ -1,0 +1,47 @@
+<article id="doc-cover">
+    {% if cover_logo is defined %}
+        <div class="wrapper upper">
+            <div class="logo" style="background-image: url({{ cover_logo | to_url }});"></div>
+        </div>
+    {% else %}
+        <div class="wrapper"></div>
+    {% endif %}
+    <div class="wrapper">
+        <h1>{{ cover_title | e }}</h1>
+        <h2>{{ cover_subtitle | e }}</h2>
+	<h3>{{ author | e }}</h3>
+	{% if cover_description is defined %}
+	    <h3>{{ cover_description | e }}</h3>
+	{% endif %}    
+	{% if cover_additional is defined %}
+	    <p>{{ cover_additional | e }}</p>
+	{% endif %}    
+	{% if cover_company is defined %}
+	  <h4>{{ cover_company | e }}</h4>
+	{% endif %}
+	  <p>
+	{% if cover_street is defined %}
+	   {{ cover_street | e }}<br/>
+	{% endif %}
+	{% if cover_zip_location is defined %}
+	   {{ cover_zip_location | e }}<br/>
+	{% endif %}
+	{% if cover_url is defined %}
+	  <a href="{{ cover_url | e }}">{{ cover_www | e }}</a><br/>
+	{% endif %}
+	  </p>
+	{% if cover_date is defined %}
+	  <p><strong>{{ cover_date | e }}</strong></p>
+	{% endif %}
+    </div>
+    <div class="properties">
+        <address>
+            {% if cover_name is defined %}
+                <p id="author">{{ cover_name | e }}</p>
+            {% endif %}
+            {% if cover_copyright is defined %}
+                <p id="copyright">{{ cover_copyright | e }}</p>
+            {% endif %}
+        </address>
+    </div>
+</article>
