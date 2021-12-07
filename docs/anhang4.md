@@ -13,7 +13,6 @@
 | PDF        | Portable Document Format                                                        |
 | HTML       | HyperText Markup Language                                                       |
 | CSS        | Cascading Style Sheets                                                          |
-| CT         | Content-Type (Inhaltstyp im CMS)                                                |
 | PSQL       | PostgreSQL                                                                      |
 | RDBMS      | relational database management system —> Relationales Datenbankmanagementsystem |
 | src        | Sourcen- (Quellen) Verzeichnis                                                  |
