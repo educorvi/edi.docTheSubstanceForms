@@ -28,7 +28,7 @@ Für die Dokumentation wurde ein eigenes Softwarepackage auf Basis von [MKDocs](
 entwickelt. Die Dokumentation befindet sich hier: [edi.docTheSubstanceForms](https://github.com/educorvi/edi.docTheSubstanceForms/)
 
 
-## Zusammenfassung (Management Summary)
+# Zusammenfassung (Management Summary)
 
 Mit dem Add-On edi.substanceforms für das freie Web-Content-Management-System [Plone](https://www.plone.org)
 wird die Online-Datenbank **Emissionsarme Produkte** der Berufsgenossenschaft Energie Textil Elektro und 
@@ -49,7 +49,7 @@ Softwarebestandteile für vergleichbare Projekte. In Abstimmung mit dem Kunden u
 deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Github](https://github.com) zu 
 veröffentlichen.
 
-### Fazit 
+**Fazit** 
 
 Im abschließenden Projektgespräch mit dem Ausbildungsbetrieb und dem Kunden am 02.12.2021 wurde festgestellt, 
 dass die entwickelte Software den Kundenanforderungen entspricht und außerdem Potenzial für die
