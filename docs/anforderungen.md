@@ -85,3 +85,11 @@ Die Integrität der gespeicherten Daten wird durch Datentypisierung und fachlich
 Plausibilitätsprüfungen sichergestellt. Somit wird jeder von den Autoren und Redakteuren
 eingetragene Wert sowohl im Hinblick auf das Datenformat als auch im Hinblick auf die
 fachliche Richtigkeit hin geprüft. 
+
+##Gefahrstoffgemisch hinzufügen
+
+Eine Besonderheit bildet das Gefahrstoffgemisch. Während sonst stets das Produkt der Datenbanktabelle entspricht (beispielsweise wird ein Hersteller in der Hersteller-Datenbanktabelle angelegt), so fasst die Datenbanktabelle Gefahrstoffgemisch die Produkte Etikettenwaschmittel, Waschmittel für UV-Druck, Heatsetwaschmittel, Sonderreiniger und Offsetdruck-Reinigungsmittel zusammen. Daher muss darauf geachtet werden, dass in der Form zum hinzufügen des Gefahrstoffgemisches die Entscheidungen zur Zuordnung getroffen werden können, die in dem Aktivitätsdiagramm [siehe Anlage 2](anhang2.md) entsprechend analysiert wurden.
+
+##Bildbehandlung
+Für einige Produkte (wie beispielsweise das Gefahrstoffgemisch) soll es möglich sein, ein entsprechendes Produktbild zu hinterlegen.
+Bei der Analyse dieser Anforderung wurde im Projektverlauf entschieden, das Bild nicht in der relationalen Datenbank PostgreSQL zu speichern, da die objektorientierte Datenbank Zope, die im verwendeten CMS Plone enthalten ist, hierfür besser geeignet ist. Beim Speichern eines Bildes muss also dafür gesorgt werden, dass das Bild einerseits in Zope hochgeladen wird, während eine Referenzierung des Bildes anhand einer ID in die relationale Datenbank erfolgt. Dieses Verfahren ist [Anhang 5](anhang5.md) zu entnehmen.

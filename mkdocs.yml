@@ -2,6 +2,7 @@ site_name: edi.substanceforms
 
 nav:
     - Home: index.md
+    - Änderungsnachweis: aenderungen.md
     - Ausgangssituation: ausgang.md
     - Zielsetzung: zielsetzung.md
     - Anforderungsanalye: anforderungen.md  
@@ -15,6 +16,8 @@ nav:
         - 'Anhang 2: Aktivitätendiagramm Gefahrstoffgemisch hinzufügen': anhang2.md
         - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
         - 'Anhang 4: Abkürzungsverzeichnis': anhang4.md
+        - 'Anhang 5: Sequenzdiagramm Bildbehandlung': anhang5.md
+        - 'Anhang 6: Klassendiagramme Plone-System': anhang6.md
 
 theme: material     
 
@@ -22,7 +25,7 @@ plugins:
     - search
     - with-pdf:
         author: Seppo Walther
-        copyright: Creative Commons (CC BY-ND)
+        copyright: Creative Commons (CC BY 4.0)
         cover_subtitle: Technische Dokumentation
         toc_title: Inhaltsverzeichnis
 
