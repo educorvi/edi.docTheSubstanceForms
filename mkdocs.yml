@@ -15,6 +15,7 @@ nav:
         - 'Anhang 2: Aktivitätendiagramm Gefahrstoffgemisch hinzufügen': anhang2.md
         - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
         - 'Anhang 4: Abkürzungsverzeichnis': anhang4.md
+        - 'Anhang 5: Sequenzdiagramm Bildbehandlung': anhang5.md
 
 theme: material     
 
