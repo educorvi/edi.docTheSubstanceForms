@@ -16,6 +16,7 @@ nav:
         - 'Anhang 3: Verzeichnis Funktionstests': anhang3.md
         - 'Anhang 4: Abkürzungsverzeichnis': anhang4.md
         - 'Anhang 5: Sequenzdiagramm Bildbehandlung': anhang5.md
+        - 'Anhang 6: Klassendiagramme Plone-System': anhang6.md
 
 theme: material     
 

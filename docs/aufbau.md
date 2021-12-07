@@ -22,6 +22,8 @@ gespeichert.
 
 ### Plone
 
+Der genaue Aufbau der in der Grafik sowie im Folgenden genannten Softwarekomponenten sind den Klassendiagrammen im [Anhang 6](anhang6.md) zu entnehmen.
+
 #### Content-Type Datenbank
 Der Plone Content-Type (CT) Datenbank interagiert direkt mit der zugrunde liegenden PostgreSQL Datenbank. Da im CT 
 Datenbank die Anmeldedaten der Datenbank hinterlegt werden, ist es das Modul, welches die Verbindung zur PostgreSQL-
