@@ -89,3 +89,6 @@ fachliche Richtigkeit hin geprüft.
 ##Gefahrstoffgemisch hinzufügen
 
 Eine Besonderheit bildet das Gefahrstoffgemisch. Während sonst stets das Produkt der Datenbanktabelle entspricht (beispielsweise wird ein Hersteller in der Hersteller-Datenbanktabelle angelegt), so fasst die Datenbanktabelle Gefahrstoffgemisch die Produkte Etikettenwaschmittel, Waschmittel für UV-Druck, Heatsetwaschmittel, Sonderreiniger und Offsetdruck-Reinigungsmittel zusammen. Daher muss hier darauf geachtet werden, dass in der Datenbank eben solcher Mixturtyp vermerkt wird und die Einzelansichten auf diese Datenbanktabelle entsprechend dynamisch gebildet werden. Informationen über das Prozedere des Anlegens eines Gefahrstoffgemisches sind Anhang 2 zu entnehmen.
+
+##Bildbehandlung
+Für einige Produkte (wie beispielsweise das Gefahrstoffgemisch) soll es möglich sein, ein entsprechendes Produktbild zu hinterlegen. Das hierfür angewendendete Verfahren bzw. der Umgang mit diesem Bild sind in Anhang 5 mit Hilfe eiens Sequenzdiagramms veranschaulicht.
