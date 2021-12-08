@@ -6,6 +6,7 @@
 |------------|---------------------------------------------------------------------------------|
 | BG ETEM    | Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse                   |
 | CC         | Creative Commons                                                                |
+| CT         | Content-Type (Inhaltstyp im CMS)                                                              |
 | CRUD       | Create, Read, Update, Delete                                                    |
 | ERM        | Entity–relationship model                                                       |
 | IHK        | Industrie- und Handelskammer                                                    |
@@ -24,6 +25,5 @@
 | Plone      | Freies, Open Source Content Management System                                   |
 | View       | Einzelansicht auf Element im Content Management System                          |
 | Form       | Webformular zur Erfassung von Daten, um sie anschließend weiterzuverarbeiten    |
-
-Die Kanban-Board ist ein brillantes visuelles Hilfsmittel, das einen Überblick über den aktuellen Arbeitsstatus gibt und die Kommunikation im Team vereinfacht.
-Mr.Bob: Werkzeug zur Generierung von Softwarepackes und weiteren Modulen mittels Schablonen (Templates)
+|Kanban-Borad| Visuelles Hilfsmittel, das durch die Einteilung von Arbeitsschritten in ToDo/In progress/Done einen Überblick über den aktuellen Arbeitsstatus gibt und die Kommunikation im Team vereinfacht|
+| mr.bob     | Werkzeug zur Generierung von Softwarepackages und weiteren Plone-Modulen mittels Schablonen (Templates)|

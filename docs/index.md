@@ -46,25 +46,25 @@ zum Fachinformatiker für Anwendungsentwicklung und wird dem Prüfungsausschuss 
 zur Bewertung vorgelegt.
 
 Für die Durchführung des Entwicklungsprojekts wurde eine agile Projektorganisation gewählt. Diese Entscheidung
-hat sich vor allem unter den besonderen Bedingungen der Corona Pandemie bewährt. Nach Vorbereitung des
-Softwarepackes mit den Generierungs-Werkzeugen von 
-"Mr.Bob" ([bobtemplates.plone](https://bobtemplatesplone.readthedocs.io/en/latest/])) wurden alle wesentlichen 
+hat sich vor allem unter den besonderen Bedingungen der Corona-Pandemie bewährt. Nach Vorbereitung des
+Softwarepackages mit den Generierungs-Werkzeugen von 
+"Mr.Bob" (bobtemplates.plone, siehe [https://bobtemplatesplone.readthedocs.io/en/latest/](https://bobtemplatesplone.readthedocs.io/en/latest/)) wurden alle wesentlichen 
 Bestandteile des Add-Ons in 3 zweitägigen Sprints entwickelt. Davon fand ein Sprint mit Kundenbeteiligung
-in Präsenz am Sitz von educorvi in Fürth statt. Für die Sprints wurden jeweils Kanban-Boards aufgestellt und 
+in Präsenz am Sitz der educorvi GmbH & Co. KG in Fürth statt. Für die Sprints wurden jeweils Kanban-Boards aufgestellt und 
 erfolgreich abgearbeitet.
 
 Auch wenn es unwahrscheinlich erscheint, dass die hier entwickelte Software 1:1 in anderen Umgebungen oder
 für vergleichbare Anwendungsfälle eingesetzt werden kann, so liefert das Projekt doch verschiedene Hinweise und
 Softwarebestandteile für vergleichbare Projekte. In Abstimmung mit dem Kunden und dem Ausbildungsbetrieb wurde
-deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Github](https://github.com) zu 
+deshalb entschieden, das Projekt als Open Source Software auf der Plattfom GitHub([https://github.com](https://github.com)) zu 
 veröffentlichen.
 
-Für die Dokumentation wurde entschieden auf [MKDocs](https://www.mkdocs.org/) zu setzen. MKDocs erlaubt die 
-Dokumentation mittels Markdown Dokumenten. Die Dokumentation kann mit dem gleichen Werkzeug wie die Erstellung
-des Softwarecodes erfolgen. Ausserdem kann die Dokumentation ebenfalls über die Plattform Github versioniert
+Für die Dokumentation wurde entschieden, auf [MKDocs](https://www.mkdocs.org/) zu setzen. MKDocs erlaubt die 
+Dokumentation mittels Markdown-Dokumenten. Die Dokumentation kann mit dem gleichen Werkzeug wie die Erstellung
+des Softwarecodes erfolgen. Außerdem kann die Dokumentation ebenfalls über die Plattform Github versioniert
 werden und es können auf diese Weise Reviews durchgeführt werden. MKDocs erlaubt die Online-Veröffentlichung
 der Dokumentation über automatisch generierte HTML-Seiten. Mit dem für dieses Projekt angepassten Zusatzmodul
-[mkdocs-with-pdf](https://pypi.org/project/mkdocs-with-pdf/) wurde die Dokumentation automatisch und ohne
+mkdocs-with-pdf ([https://pypi.org/project/mkdocs-with-pdf/](https://pypi.org/project/mkdocs-with-pdf/)) wurde die Dokumentation automatisch und ohne
 Zusatzaufwand als PDF-Dokument exportiert.
 
 **Fazit** 
