@@ -24,3 +24,6 @@
 | Plone      | Freies, Open Source Content Management System                                   |
 | View       | Einzelansicht auf Element im Content Management System                          |
 | Form       | Webformular zur Erfassung von Daten, um sie anschließend weiterzuverarbeiten    |
+
+Die Kanban-Board ist ein brillantes visuelles Hilfsmittel, das einen Überblick über den aktuellen Arbeitsstatus gibt und die Kommunikation im Team vereinfacht.
+Mr.Bob: Werkzeug zur Generierung von Softwarepackes und weiteren Modulen mittels Schablonen (Templates)
