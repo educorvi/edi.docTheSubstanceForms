@@ -48,7 +48,7 @@ zur Bewertung vorgelegt.
 Für die Durchführung des Entwicklungsprojekts wurde eine agile Projektorganisation gewählt. Diese Entscheidung
 hat sich vor allem unter den besonderen Bedingungen der Corona Pandemie bewährt. Nach Vorbereitung des
 Softwarepackes mit den Generierungs-Werkzeugen von 
-"mr.Bob" ((bobtemplates.plone)[https://bobtemplatesplone.readthedocs.io/en/latest/]) wurden alle wesentlichen 
+"Mr.Bob" ([bobtemplates.plone](https://bobtemplatesplone.readthedocs.io/en/latest/])) wurden alle wesentlichen 
 Bestandteile des Add-Ons in 3 zweitägigen Sprints entwickelt. Davon fand ein Sprint mit Kundenbeteiligung
 in Präsenz am Sitz von educorvi in Fürth statt. Für die Sprints wurden jeweils Kanban-Boards aufgestellt und 
 erfolgreich abgearbeitet.
@@ -60,12 +60,12 @@ deshalb entschieden, das Projekt als Open Source Software auf der Plattfom [Gith
 veröffentlichen.
 
 Für die Dokumentation wurde entschieden auf [MKDocs](https://www.mkdocs.org/) zu setzen. MKDocs erlaubt die 
-Dokumentation mittels Markdown Dokumenten. Die Dokumentation kann mit dem gleichen Werkzeugen wie die Erstellung
+Dokumentation mittels Markdown Dokumenten. Die Dokumentation kann mit dem gleichen Werkzeug wie die Erstellung
 des Softwarecodes erfolgen. Ausserdem kann die Dokumentation ebenfalls über die Plattform Github versioniert
 werden und es können auf diese Weise Reviews durchgeführt werden. MKDocs erlaubt die Online-Veröffentlichung
 der Dokumentation über automatisch generierte HTML-Seiten. Mit dem für dieses Projekt angepassten Zusatzmodul
-[mkdocs-with-pdf](https://pypi.org/project/mkdocs-with-pdf/) kann die Dokumentation automatisch und ohne
-Zusatzaufwand als PDF-Dokument exportiert werden.
+[mkdocs-with-pdf](https://pypi.org/project/mkdocs-with-pdf/) wurde die Dokumentation automatisch und ohne
+Zusatzaufwand als PDF-Dokument exportiert.
 
 **Fazit** 
 
@@ -79,6 +79,5 @@ GESTIS der Deutschen gesetzlichen Unfallversicherung (DGUV).
 *[IHK]: Industrie und Handelskammer
 *[BG ETEM]: Berufsgenossenschaft Energie Textil Elektro Medienerzeugnisse
 *[CMS]: Content Management System
-*[Kanban-Boards]: Die Kanban-Board ist ein visuelles Hilfsmittel für den Überblick über den aktuellen Arbeitsstatus
- und die Kommunikation im Team
+*[Kanban-Boards]: Die Kanban-Board ist ein visuelles Hilfsmittel für den Überblick über den aktuellen Arbeitsstatus und die Kommunikation im Team
 *[Mr.Bob]: Werkzeug zur Generierung von Softwarepackes und weiteren Modulen mittels Schablonen (Templates)
