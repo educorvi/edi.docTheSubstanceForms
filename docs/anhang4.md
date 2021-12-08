@@ -25,5 +25,5 @@
 | Plone      | Freies, Open Source Content Management System                                   |
 | View       | Einzelansicht auf Element im Content Management System                          |
 | Form       | Webformular zur Erfassung von Daten, um sie anschließend weiterzuverarbeiten    |
-|Kanban-Borad| Visuelles Hilfsmittel, das durch die Einteilung von Arbeitsschritten in ToDo/In progress/Done einen Überblick über den aktuellen Arbeitsstatus gibt und die Kommunikation im Team vereinfacht|
+|Kanban-Board| Visuelles Hilfsmittel, das durch die Einteilung von Arbeitsschritten in ToDo/In progress/Done einen Überblick über den aktuellen Arbeitsstatus gibt und die Kommunikation im Team vereinfacht|
 | mr.bob     | Werkzeug zur Generierung von Softwarepackages und weiteren Plone-Modulen mittels Schablonen (Templates)|
